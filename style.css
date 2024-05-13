@@ -1,0 +1,60 @@
+body {
+  background: black;
+  margin: 0;
+  position: relative;
+}
+
+#CalculatorContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  margin: 5px;
+  color: aliceblue;
+}
+
+#divide {
+  background-color: rgb(255, 103, 2);
+}
+
+#Multiply {
+  background-color: rgb(255, 103, 2);
+}
+
+#Subtract {
+  background-color: rgb(255, 103, 2);
+}
+
+#add {
+  background-color: rgb(255, 103, 2);
+}
+
+#clear {
+  background-color: rgb(160, 156, 154);
+}
+
+#inputField {
+  height: 30px;
+  width: 185px;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: right;
+  margin-right: 5px;
+}
+
+div button {
+  background-color: rgb(56, 55, 55);
+  font-size: larger;
+  font-weight: bolder;
+}
